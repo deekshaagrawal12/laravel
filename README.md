@@ -1,8 +1,8 @@
 <!-- setup instruction -->
 rename .env.example file to .env
 
-<!-- setup using docker -->
-run docker-compose up --build 
+<!-- go to the folder -->
+run php artisan serve
 
 <!-- hit the url on the browser -->
-http://0.0.0.0:9000/
+http://127.0.0.1:8000/
