@@ -29,6 +29,8 @@ RUN docker-php-ext-install mysqli pdo pdo_mysql
 
 RUN apt install libzip-dev
 
+RUN composer install
+
 # RUN docker-php-ext-install pdo pdo_mysql zip bcmath
 
 EXPOSE 8000
